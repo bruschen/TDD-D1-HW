@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day1_HomeworkCls", "day1_HomeworkCls\day1_HomeworkCls.csproj", "{80B412E0-CAAE-4CFB-8A64-CD06254D8641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day1_HomeworkClsTests", "day1_HomeworkClsTests\day1_HomeworkClsTests.csproj", "{41CC51AB-89E4-440A-A63E-0A4D9EA0CBB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80B412E0-CAAE-4CFB-8A64-CD06254D8641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B412E0-CAAE-4CFB-8A64-CD06254D8641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B412E0-CAAE-4CFB-8A64-CD06254D8641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B412E0-CAAE-4CFB-8A64-CD06254D8641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CC51AB-89E4-440A-A63E-0A4D9EA0CBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CC51AB-89E4-440A-A63E-0A4D9EA0CBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CC51AB-89E4-440A-A63E-0A4D9EA0CBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CC51AB-89E4-440A-A63E-0A4D9EA0CBB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
