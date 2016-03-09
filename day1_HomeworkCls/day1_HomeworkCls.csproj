@@ -39,8 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPageService.cs" />
+    <Compile Include="IService.cs" />
     <Compile Include="OrderModel.cs" />
     <Compile Include="OrderService.cs" />
+    <Compile Include="PageSumHelper.cs" />
+    <Compile Include="ProductModel.cs" />
+    <Compile Include="ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
