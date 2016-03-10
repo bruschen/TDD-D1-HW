@@ -21,6 +21,10 @@ namespace day1_HomeworkCls.Tests
                 new OrderModel{ ID=5, Cost=5, Revenue=15, SellPrice=25},
                 new OrderModel{ ID=6, Cost=6, Revenue=16, SellPrice=26},
                 new OrderModel{ ID=7, Cost=7, Revenue=17, SellPrice=27},
+                new OrderModel{ ID=8, Cost=8, Revenue=18, SellPrice=28},
+                new OrderModel{ ID=9, Cost=9, Revenue=19, SellPrice=29},
+                new OrderModel{ ID=10, Cost=10, Revenue=20, SellPrice=30},
+                new OrderModel{ ID=11, Cost=11, Revenue=21, SellPrice=31}
             };
         }
 
@@ -33,7 +37,7 @@ namespace day1_HomeworkCls.Tests
             string propertyName = "Cost";
             int pageNum=3;
 
-            var expected = new List<int>() { 6, 15, 7 };
+            var expected = new List<int>() { 6, 15, 24,21 };
 
             //Act
 
@@ -51,7 +55,7 @@ namespace day1_HomeworkCls.Tests
             string propertyName = "Revenue";
             int pageNum = 4;
 
-            var expected = new List<int>() { 50, 48 };
+            var expected = new List<int>() { 50, 66,60 };
 
             //Act
             var actual = target.GetPageSum(propertyName, pageNum);
