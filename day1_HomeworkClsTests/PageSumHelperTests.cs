@@ -44,7 +44,23 @@ namespace day1_HomeworkCls.Tests
 
             //Assert
             expected.ToExpectedObject().ShouldEqual(actual);
+        }
 
+        [TestMethod()]
+        public void PageSumHelper_訂單_屬性_Revenue_分頁_4()
+        {
+            //Arrange
+            var target = new PageSumHelper<OrderModel>(GetOrders()) { };
+            string propertyName = "Revenue";
+            int pageNum = 4;
+
+            var expected = new List<int>() { 50,66,60 };
+
+            //Act
+            var actual = target.GetPageSum(propertyName, pageNum);
+
+            //Assert
+            expected.ToExpectedObject().ShouldEqual(actual);
         }
     }
 }
